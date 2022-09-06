@@ -9,7 +9,7 @@ import marlon from "/Users/Resilia/Desktop/projeto pessoal/projectReact/project-
 //}
 
 
-function Main(){
+function Header(){
   const [input , setInput] = useState({})
 
     return <div className="main">
@@ -58,4 +58,4 @@ function Main(){
   </div>
 }
 
-export default Main;
+export default Header;

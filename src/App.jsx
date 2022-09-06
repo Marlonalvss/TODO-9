@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import Main from "./components/Main";
 import Conteudo2 from "./components/Conteudo2";
+import Header from "./components/Header";
 
 
 /// corrigir o código por conta dos erros na requisição da API
@@ -86,7 +86,7 @@ function App() {
   
   return (
     <div className="App">
-      <Main />
+      <Header />
       <div className="conteudo">
         <div className="center">{enderecoAtt} 
         <button className="botaoMostra" onClick={showMore}>Ainda mais produtos aqui!</button>
