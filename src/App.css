@@ -1,52 +1,53 @@
-*{
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-.main{
+.main {
   padding: 40px 0;
   width: 100%;
   min-height: 200px;
-  /*background-image: url(./assets/wall.jpg); */
+  background-image: url(./assets/wall.jpg);
   background-position: center;
   background-size: contain;
-  background-color: red;
 }
-.center{
+
+.center {
   max-width: 960px;
-  margin: 0 auto; 
+  margin: 0 auto;
   padding: 10px 2%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.menu{
+
+.menu {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: green;
 }
-nav{
+
+nav {
   width: 50%;
   height: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  background-color: blue;
-  
 }
+
 ul {
-  list-style:none;
+  list-style: none;
 }
-.menu h3{
+
+.menu h3 {
   color: black;
 }
 
-.menu a{
+.menu a {
   color: black;
   background-color: whitesmoke;
   text-decoration: none;
@@ -55,11 +56,11 @@ ul {
   border-radius: 5px;
 }
 
-.proPhoto{
+.proPhoto {
   border-radius: 5px;
 }
 
-.form{
+.form {
   display: flex;
   width: 100%;
   max-width: 900px;
@@ -68,9 +69,12 @@ ul {
   text-align: center;
   flex-direction: row;
   border-radius: 5px;
-  
+
 }
-.form input[type=text],[type=email],[type=number]{
+
+.form input[type=text],
+[type=email],
+[type=number] {
   width: 60%;
   justify-content: space-around;
   height: 30px;
@@ -79,25 +83,28 @@ ul {
   border: solid 1px;
   text-align: center;
 }
-form{
+
+form {
   display: flex;
   flex-direction: row;
   margin: 10px;
   background-color: #38b6ff;
 }
-.form h2{
+
+.form h2 {
   text-transform: uppercase;
 }
-.items-form{
+
+.items-form {
   margin-top: 1px;
   width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
- 
+
 }
 
-.items-form input[type=submit]{
+.items-form input[type=submit] {
   width: 60%;
   height: 30px;
   background-color: whitesmoke;
@@ -107,6 +114,7 @@ form{
   font-size: 15px;
   margin: 5px 0;
 }
+
 .conteudo-single {
   margin-top: 20px;
   margin-left: 10px;
@@ -119,13 +127,19 @@ form{
   align-items: center;
   border-radius: 5px;
 }
-.conteudo-single:hover{
-  border: solid 1px black;;
+
+.conteudo-single:hover {
+  border: solid 1px black;
+  ;
 }
-.form input[type=text]:hover,[type=email]:hover,[type=number]:hover{
+
+.form input[type=text]:hover,
+[type=email]:hover,
+[type=number]:hover {
   border: solid 2px #38b6ff;
 }
-.botaoEnv{
+
+.botaoEnv {
   color: black;
   background-color: whitesmoke;
   text-decoration: none;
@@ -134,7 +148,8 @@ form{
   border-radius: 5px;
   cursor: pointer;
 }
-.botaoMostra{
+
+.botaoMostra {
   color: black;
   background-color: whitesmoke;
   text-decoration: none;
@@ -145,7 +160,8 @@ form{
   margin-top: 10px;
   cursor: pointer;
 }
-.caixaEnv{
+
+.caixaEnv {
   margin-top: 20px;
   display: flex;
   height: 50px;
@@ -153,43 +169,49 @@ form{
   align-items: center;
   justify-content: center;
 }
-.botaoEnv2{
+
+.botaoEnv2 {
   width: 30%;
 }
 
-.logo{
+.logo {
   width: 130px;
   height: 50px;
-  
+
 }
-.pTitulo{
-width: 100%;
-text-align: start;
-margin-right: 5px;
+
+.pTitulo {
+  width: 100%;
+  text-align: start;
+  margin-right: 5px;
 }
-.tituloP{
+
+.tituloP {
   width: 100%;
 }
-.textT{
+
+.textT {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 50%;
 }
-.organiz{
+
+.organiz {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-.cont2{
+
+.cont2 {
   top: 2151px;
   left: 0px;
   width: 100%;
   height: 250px;
-  
+
   /* UI Properties */
-  
+
   background-image: url(./assets/footer.jpg);
   background-position: center;
   background-size: contain;
@@ -197,36 +219,48 @@ margin-right: 5px;
 
 @media screen and (max-width: 768px) {
 
-  .form input[type=text],[type=email],[type=number]{
-    width: 100%;}
-  .items-form input[type=submit]{
-  width: 100%;
-}
-.conteudo-single {
- width: 100%;
-}
-form{
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
-}
-.pTitulo{
-  width: 100%;
-  margin-bottom: 10px;
-}
-.items-form{
-  width: 100%;
-}
-.textT{
-  width: 100%;
-}
-  .tituloP{
+  .form input[type=text],
+  [type=email],
+  [type=number] {
     width: 100%;
   }
-  .logo{
+
+  .items-form input[type=submit] {
+    width: 100%;
+  }
+
+  .conteudo-single {
+    width: 100%;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .pTitulo {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .items-form {
+    width: 100%;
+  }
+
+  .textT {
+    width: 100%;
+  }
+
+  .tituloP {
+    width: 100%;
+  }
+
+  .logo {
     width: auto;
   }
-  .organiz{
+
+  .organiz {
     width: 100%;
     height: 100%;
     align-items: flex-end;
@@ -234,8 +268,8 @@ form{
     flex-direction: column;
     justify-content: space-around;
   }
-.item-menu{
-  margin: 3px;
-}
-}
 
+  .item-menu {
+    margin: 3px;
+  }
+}
