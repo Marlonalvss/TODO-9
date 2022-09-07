@@ -9,7 +9,7 @@ function Footer() {
         <input className="fName" type="text" placeholder="Nome Completo" name="nome" />
         <input className="fEmail" type="email" placeholder="Insira seu e-mail" name="email_usuario" />
        </div> 
-      <button className="fSubmit">teste do teste</button>
+      <button className="fSubmit">Enviar agora</button>
       <p className="p2Footer">Testando suas habilidades em HTML, CSS e JS. Resilia 2022</p>
       </form>
   </footer>

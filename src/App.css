@@ -4,6 +4,9 @@
   margin: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
 .main {
   padding: 40px 0;
   width: 100%;
@@ -92,7 +95,7 @@ form {
 }
 
 .form h2 {
-  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
 }
 
 .items-form {
@@ -214,9 +217,11 @@ form {
 .pFooter{
   margin-top: 30px;
   margin-bottom: 5px;
+  font-family: 'Poppins', sans-serif;
 }
 .p2Footer{
   margin-top: 40px;
+  
 }
 .fOrganiza{
   display: flex;
