@@ -12,23 +12,25 @@ import marlon from "/Users/Resilia/Desktop/projeto pessoal/projectReact/project-
 function Header(){
   const [input , setInput] = useState({})
 
-    return <div className="main">
+    return <header className="main">
     <div className="center">
       <div className="menu">
         <div className="logo">
           <img className="logo" src={marlon} alt="foto" />
         </div>
-        <div className="organiz">
-        <div className="item-menu">
+        <nav>
+        <ul className="organiz">
+        <li className="item-menu">
           <a href="#">Produtos</a>
-        </div>
-        <div className="item-menu">
+        </li>
+        <li className="item-menu">
           <a href="#">Compartilhe</a>
-        </div>
-        <div className="item-menu">
+        </li>
+        <li className="item-menu">
           <a href="#">Login</a>
-        </div>
-      </div>
+        </li>
+      </ul>
+      </nav>
       </div>
       
       <div className="form">
@@ -55,7 +57,7 @@ function Header(){
     </div>
     </div>
    
-  </div>
+  </header>
 }
 
 export default Header;

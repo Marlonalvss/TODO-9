@@ -8,9 +8,10 @@
   padding: 40px 0;
   width: 100%;
   min-height: 200px;
-  background-image: url(./assets/wall.jpg);
+  /*background-image: url(./assets/wall.jpg); */
   background-position: center;
   background-size: contain;
+  background-color: red;
 }
 .center{
   max-width: 960px;
@@ -26,6 +27,20 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  background-color: green;
+}
+nav{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: blue;
+  
+}
+ul {
+  list-style:none;
 }
 .menu h3{
   color: black;
@@ -162,7 +177,7 @@ margin-right: 5px;
   width: 50%;
 }
 .organiz{
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;

@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import Conteudo2 from "./components/Conteudo2";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Main from "./components/Main";
+
 
 
 /// corrigir o código por conta dos erros na requisição da API
@@ -64,7 +66,10 @@ function App() {
     (e) => <>
         <div className="conteudo-single">
           <h3>{e.name}</h3>
+          <figure>
           <img className="proPhoto" src={e.image} />
+          <figcaption>Figura do 1 produto</figcaption>
+          </figure>
           <p>{e.description}</p>
           <h4>{"De R$: " + e.oldPrice}</h4>
           <h3>{"Por R$: " + e.price}</h3>
@@ -87,13 +92,13 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <div className="conteudo">
-        <div className="center">{enderecoAtt} 
+      <main className="conteudo">
+        <section className="center">{enderecoAtt} 
         <button className="botaoMostra" onClick={showMore}>Ainda mais produtos aqui!</button>
-        </div>
-      </div>
+        </section>
+      </main>
      
-      <Conteudo2 />
+      <Footer />
   
     </div>
   );
