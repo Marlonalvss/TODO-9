@@ -203,20 +203,57 @@ form {
   flex-direction: row;
   justify-content: space-around;
 }
+/* ------ FOOTER DA PAGINA ------ */
+.fFooter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80%;
+  width: 80%;
+}
+.pFooter{
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+.p2Footer{
+  margin-top: 40px;
+}
+.fOrganiza{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+.fSubmit{
+  width: 200px;
+  height: 25px;
+  border-radius: 5px;
+  border: solid 1px black;
 
+}
+.fEmail, .fName{
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  width: 300px;
+  height: 30px;
+  border-radius: 5px; 
+  border: solid 1px black;
+}
 .cont2 {
-  top: 2151px;
-  left: 0px;
+  display: flex;
+  justify-content: center;
   width: 100%;
   height: 250px;
 
-  /* UI Properties */
 
   background-image: url(./assets/footer.jpg);
   background-position: center;
   background-size: contain;
 }
 
+
+/* PARTE ONDE SERÁ RESPONSÁVEL PELA RESPONSIVIDADE DO SITE */
 @media screen and (max-width: 768px) {
 
   .form input[type=text],
@@ -271,5 +308,33 @@ form {
 
   .item-menu {
     margin: 3px;
+  }
+
+  .fFooter{
+    width: 90%;
+    height: 90%;
+    align-items: center;
+  }
+  .cont2{
+    height: 300px;
+  }
+  .fOrganiza{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+  }
+  .fSubmit{
+    width: 200px;
+    height: 25px;
+  }
+  .fEmail, .fName{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+  }
+  .p2Footer{
+    margin-top: 30px;
+    margin-bottom: 5px;
   }
 }
