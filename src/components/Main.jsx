@@ -1,6 +1,6 @@
-import Reactm,{ useState, useEffect } from "react";
+import Reactm, { useState, useEffect } from "react";
 
-export default function Main(){
+export default function Main() {
   // criando o useState, o useState é nada mais que uma variável,  o mesmo
   // é conhecido como HOOKS.
 
@@ -57,35 +57,35 @@ export default function Main(){
   // não dar erro, o mesmo aceita itens dentro de uma div, fora o mesmo pode dar erro.
   const enderecoAtt = endereco.map(
     (e) => <>
-        <div className="conteudo-single">
-          <h3>{e.name}</h3>
-          <figure>
+      <div className="conteudo-single">
+        <h3>{e.name}</h3>
+        <figure>
           <img className="proPhoto" src={e.image} />
           <figcaption>Figura do 1 produto</figcaption>
-          </figure>
-          <p>{e.description}</p>
-          <h4>{"De R$: " + e.oldPrice}</h4>
-          <h3>{"Por R$: " + e.price}</h3>
-          <input className="botaoEnv" type="submit" name />
-        </div>
+        </figure>
+        <p>{e.description}</p>
+        <h4>{"De R$: " + e.oldPrice}</h4>
+        <h3>{"Por R$: " + e.price}</h3>
+        <input className="botaoEnv" type="submit" name />
+      </div>
     </>
   )
   // FUNÇÃO QUE CHAMA O HOOK PAGE E ATUALIZA O VALOR EM +1 
   // ESSA FUNÇÃO VAI SER CHAMADA EM UM BOTÃO.  
-  const showMore = ()=>{
+  const showMore = () => {
     atPage(page + 1)
   }
-// useEffect trabalha com renderização da pagina, ou seja, a primeira vez que for carregada
-    // ela irá invocar a função que chama API, para ser usado corretamente é necessário passar
-    // o array no fimal dela para que os dados da api não fiquem descontrolados.
-  useEffect(()=>{
+  // useEffect trabalha com renderização da pagina, ou seja, a primeira vez que for carregada
+  // ela irá invocar a função que chama API, para ser usado corretamente é necessário passar
+  // o array no fimal dela para que os dados da api não fiquem descontrolados.
+  useEffect(() => {
     getAddress()
   }, [page])
-    
-    return <main className="conteudo">
-    <section className="center">{enderecoAtt} 
-        <button className="botaoMostra" onClick={showMore}>Ainda mais produtos aqui!</button>
-        </section>
+
+  return <main className="conteudo">
+    <section className="center">{enderecoAtt}
+      <button className="botaoMostra" onClick={showMore}>Ainda mais produtos aqui!</button>
+    </section>
   </main>
 }
 
