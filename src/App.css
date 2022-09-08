@@ -206,45 +206,53 @@ form {
   flex-direction: row;
   justify-content: space-around;
 }
+
 /* ------ FOOTER DA PAGINA ------ */
-.fFooter{
+.fFooter {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 80%;
   width: 80%;
 }
-.pFooter{
+
+.pFooter {
   margin-top: 30px;
   margin-bottom: 5px;
   font-family: 'Poppins', sans-serif;
 }
-.p2Footer{
+
+.p2Footer {
   margin-top: 40px;
-  
+
 }
-.fOrganiza{
+
+.fOrganiza {
   display: flex;
   justify-content: center;
   width: 100%;
   align-items: center;
 }
-.fSubmit{
+
+.fSubmit {
   width: 200px;
   height: 25px;
   border-radius: 5px;
   border: solid 1px black;
 
 }
-.fEmail, .fName{
+
+.fEmail,
+.fName {
   margin-left: 10px;
   margin-right: 10px;
   text-align: center;
   width: 300px;
   height: 30px;
-  border-radius: 5px; 
+  border-radius: 5px;
   border: solid 1px black;
 }
+
 .cont2 {
   display: flex;
   justify-content: center;
@@ -315,30 +323,36 @@ form {
     margin: 3px;
   }
 
-  .fFooter{
+  .fFooter {
     width: 90%;
     height: 90%;
     align-items: center;
   }
-  .cont2{
+
+  .cont2 {
     height: 300px;
   }
-  .fOrganiza{
+
+  .fOrganiza {
     display: flex;
     flex-direction: column;
     width: 100%;
-    
+
   }
-  .fSubmit{
+
+  .fSubmit {
     width: 200px;
     height: 25px;
   }
-  .fEmail, .fName{
+
+  .fEmail,
+  .fName {
     width: 200px;
     height: 30px;
     border-radius: 5px;
   }
-  .p2Footer{
+
+  .p2Footer {
     margin-top: 30px;
     margin-bottom: 5px;
   }
