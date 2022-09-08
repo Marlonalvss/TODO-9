@@ -257,7 +257,7 @@ form {
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 250px;
+  height: 280px;
 
 
   background-image: url(./assets/footer.jpg);
@@ -359,5 +359,16 @@ form {
   .p2Footer {
     margin-top: 30px;
     margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .pFooter {
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+
+  .cont2 {
+    height: 400px;
   }
 }
