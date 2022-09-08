@@ -1,11 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-
 
 .main {
   padding: 40px 0;
@@ -350,6 +350,10 @@ form {
     width: 200px;
     height: 30px;
     border-radius: 5px;
+  }
+
+  .pFooter {
+    margin-top: 15px;
   }
 
   .p2Footer {
