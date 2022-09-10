@@ -61,7 +61,6 @@ export default function Main() {
         <h3>{e.name}</h3>
         <figure>
           <img className="proPhoto" src={e.image} />
-          <figcaption>Figura do 1 produto</figcaption>
         </figure>
         <p>{e.description}</p>
         <h4>{"De R$: " + e.oldPrice}</h4>
