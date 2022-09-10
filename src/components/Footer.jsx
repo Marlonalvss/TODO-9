@@ -1,5 +1,6 @@
 import React from "react";
 import linkedin from "../assets/linkedin.png"
+import github from "../assets/github.png"
 
 function Footer() {
 
@@ -12,7 +13,10 @@ function Footer() {
       </div>
       <button className="fSubmit">Enviar agora</button>
       <p className="p2Footer">Testando suas habilidades em HTML, CSS e JS. Resilia 2022</p>
+      <div>
       <a href="https://www.linkedin.com/in/marlon-alvss/"><img src={linkedin} alt="linkedin" /></a>
+      <a href="https://github.com/Marlonalvss"><img src={github} alt="github" /></a>
+      </div>
     </form>
   </footer>
 }
