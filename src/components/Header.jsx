@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { validaCpf, validateEmail } from "./Form-validation/Form-validation.jsx";
-import marlon from "/Users/Resilia/Desktop/projeto pessoal/projectReact/project-react/src/assets/2.png";
+import marlon from "/src/assets/2.png";
 
 
 function Header() {
