@@ -1,4 +1,5 @@
 import React from "react";
+import linkedin from "../assets/linkedin.png"
 
 function Footer() {
 
@@ -11,6 +12,7 @@ function Footer() {
       </div>
       <button className="fSubmit">Enviar agora</button>
       <p className="p2Footer">Testando suas habilidades em HTML, CSS e JS. Resilia 2022</p>
+      <a href="https://www.linkedin.com/in/marlon-alvss/"><img src={linkedin} alt="linkedin" /></a>
     </form>
   </footer>
 }
