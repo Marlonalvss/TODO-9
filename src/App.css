@@ -108,10 +108,11 @@ form {
 }
 
 .items-form input[type=submit] {
+  color: black;
   width: 60%;
   height: 30px;
   background-color: whitesmoke;
-  border: solid 1px;
+  border: solid 1px black;
   border-radius: 5px;
   cursor: pointer;
   font-size: 15px;
